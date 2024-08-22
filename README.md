@@ -26,7 +26,7 @@ Voxemo is all about speed. Hot, nasty, bad-ass speed.
 
 Audio is collected by a Nextjs web client to Node API server, and streamed through a feature extraction pipeline chained together by Kafka, and ultimately those features are stored in a vector database such as Pinecone.Accompanying metadata in ClickHouse.
 
-The key to high transmission rates is appropriately chunking the audio so that processing can begin soon after the user starts speaking. 
+The key to high transmission rates is appropriately chunking the audio so that processing can begin soon after the user starts speaking, and allocating a high replica count so that ideally each word the user speaks goes to a different node in a round robin fashion so that there is never a processing queue greater than 1. 
 
 
 ### Client Application using web recorder api
@@ -39,5 +39,16 @@ Before the speaker is done recording, the server is already recieving the audio 
 A fleet of consumers listening on the bytestream topic proccesses WAV files in chunks to be passed on to transcription. It sends a series of small WAV files containing sentence fragments to another Kafka topic called wav_2whisper where a Whisper ASR service will pick them up
 
 ### Kafka Whisper consumer (wav_2whisper)
-T
+Another fleet of consumers await new wav files to send to the Whisper ASR API, which send back a transcription of the input file. When the Whisper consumer application receives a response it forwards it to another topic where another consumer will stitch the sentences back together
+
+
+### Paralinguistic/Acoustic Feature Extraction  
+
+#### Resources
+https://assets.amazon.science/21/f3/1496cf78467399381a6e8bf0ae47/towards-paralinguistic-only-speech-representations-for-end-to-end-speech-emotion-recognition.pdf
+
+
+### Large Language Models (LLM)
+
+### Text To Speech (TTS)
 
