@@ -61,11 +61,11 @@
         <mxCell id="bHArMrMlONKAML6liJyr-23" value="In-ear or on-screen text&#xa;translations and summaries" style="shape=step;perimeter=stepPerimeter;strokeColor=#9673a6;fontFamily=Helvetica;fontSize=14;fillColor=#e1d5e7;fixedSize=1;size=17;fontStyle=1;strokeWidth=2;spacingTop=0;points=[];fontColor=#9999FF;" vertex="1" parent="1">
           <mxGeometry x="1376" y="206" width="244" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="bHArMrMlONKAML6liJyr-27" value="Insert to&#xa;vector DB" style="shape=step;perimeter=stepPerimeter;strokeColor=#B85450;fontFamily=Helvetica;fontSize=14;fontColor=#B85450;fillColor=#f8cecc;fixedSize=1;size=17;fontStyle=1;strokeWidth=2;spacingTop=0;points=[];" vertex="1" parent="1">
-          <mxGeometry x="839" y="77" width="136" height="59" as="geometry" />
-        </mxCell>
         <mxCell id="bHArMrMlONKAML6liJyr-28" value="SER&#xa;(wav2vec2)" style="shape=step;perimeter=stepPerimeter;strokeColor=#D6B656;fontFamily=Helvetica;fontSize=14;fontColor=#D6B656;fillColor=#fff2cc;fixedSize=1;size=17;fontStyle=1;strokeWidth=2;spacingTop=0;points=[];" vertex="1" parent="1">
           <mxGeometry x="749" y="206" width="100" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="bHArMrMlONKAML6liJyr-29" value="Insert to &#xa;vector DB" style="shape=step;perimeter=stepPerimeter;strokeColor=#82B366;fontFamily=Helvetica;fontSize=14;fontColor=#82B366;fillColor=#d5e8d4;fixedSize=1;size=17;fontStyle=1;strokeWidth=2;spacingTop=0;points=[];" vertex="1" parent="1">
+          <mxGeometry x="1093" y="77" width="120" height="59" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
