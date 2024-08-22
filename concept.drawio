@@ -1,23 +1,71 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" border="50" scale="3" compressed="false" locked="false" version="24.7.7">
   <diagram name="Blank" id="YmL12bMKpDGza6XwsDPr">
-    <mxGraphModel dx="1354" dy="981" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="1" shadow="0">
+    <mxGraphModel dx="1466" dy="987" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="1" shadow="0">
       <root>
         <mxCell id="X5NqExCQtvZxIxQ7pmgY-0" />
         <mxCell id="1" parent="X5NqExCQtvZxIxQ7pmgY-0" />
         <mxCell id="NjAqU9Y5rHBkyYTPuW-a-1" value="Process Bar" style="swimlane;fontStyle=2;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=none;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=none;strokeColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#BABABA;points=[];verticalAlign=middle;stackBorder=10;stackSpacing=-10;resizable=1;" parent="1" vertex="1">
-          <mxGeometry x="219" y="111" width="390" height="100" as="geometry" />
+          <mxGeometry x="243" y="111" width="1384" height="99" as="geometry" />
         </mxCell>
-        <mxCell id="NjAqU9Y5rHBkyYTPuW-a-2" value="Step 1" style="shape=step;perimeter=stepPerimeter;strokeColor=#6C8EBF;fontFamily=Helvetica;fontSize=14;fontColor=#6C8EBF;fillColor=#dae8fc;fixedSize=1;size=17;fontStyle=1;strokeWidth=2;spacingTop=0;points=[];" parent="NjAqU9Y5rHBkyYTPuW-a-1" vertex="1">
-          <mxGeometry x="10" y="30" width="100" height="60" as="geometry" />
+        <mxCell id="bHArMrMlONKAML6liJyr-26" value="Specify target&#xa;speaker(s)" style="shape=step;perimeter=stepPerimeter;strokeColor=#D6B656;fontFamily=Helvetica;fontSize=14;fontColor=#D6B656;fillColor=#fff2cc;fixedSize=1;size=17;fontStyle=1;strokeWidth=2;spacingTop=0;points=[];" vertex="1" parent="NjAqU9Y5rHBkyYTPuW-a-1">
+          <mxGeometry x="10" y="30" width="137" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="NjAqU9Y5rHBkyYTPuW-a-3" value="Step 2" style="shape=step;perimeter=stepPerimeter;strokeColor=#82B366;fontFamily=Helvetica;fontSize=14;fontColor=#82B366;fillColor=#d5e8d4;fixedSize=1;size=17;fontStyle=1;strokeWidth=2;spacingTop=0;points=[];" parent="NjAqU9Y5rHBkyYTPuW-a-1" vertex="1">
-          <mxGeometry x="100" y="30" width="100" height="60" as="geometry" />
+        <mxCell id="bHArMrMlONKAML6liJyr-25" value="Speech Input" style="shape=step;perimeter=stepPerimeter;strokeColor=#B85450;fontFamily=Helvetica;fontSize=14;fontColor=#B85450;fillColor=#f8cecc;fixedSize=1;size=17;fontStyle=1;strokeWidth=2;spacingTop=0;points=[];" vertex="1" parent="NjAqU9Y5rHBkyYTPuW-a-1">
+          <mxGeometry x="137" y="30" width="140" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="NjAqU9Y5rHBkyYTPuW-a-4" value="Step 3" style="shape=step;perimeter=stepPerimeter;strokeColor=#D6B656;fontFamily=Helvetica;fontSize=14;fontColor=#D6B656;fillColor=#fff2cc;fixedSize=1;size=17;fontStyle=1;strokeWidth=2;spacingTop=0;points=[];" parent="NjAqU9Y5rHBkyYTPuW-a-1" vertex="1">
-          <mxGeometry x="190" y="30" width="100" height="60" as="geometry" />
+        <mxCell id="bHArMrMlONKAML6liJyr-24" value="Diarize Speaker" style="shape=step;perimeter=stepPerimeter;strokeColor=#6C8EBF;fontFamily=Helvetica;fontSize=14;fontColor=#6C8EBF;fillColor=#dae8fc;fixedSize=1;size=17;fontStyle=1;strokeWidth=2;spacingTop=0;points=[];" vertex="1" parent="NjAqU9Y5rHBkyYTPuW-a-1">
+          <mxGeometry x="267" y="30" width="160" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="NjAqU9Y5rHBkyYTPuW-a-5" value="Step 4" style="shape=step;perimeter=stepPerimeter;strokeColor=#B85450;fontFamily=Helvetica;fontSize=14;fontColor=#B85450;fillColor=#f8cecc;fixedSize=1;size=17;fontStyle=1;strokeWidth=2;spacingTop=0;points=[];" parent="NjAqU9Y5rHBkyYTPuW-a-1" vertex="1">
-          <mxGeometry x="280" y="30" width="100" height="60" as="geometry" />
+        <mxCell id="NjAqU9Y5rHBkyYTPuW-a-3" value="ASR" style="shape=step;perimeter=stepPerimeter;strokeColor=#82B366;fontFamily=Helvetica;fontSize=14;fontColor=#82B366;fillColor=#d5e8d4;fixedSize=1;size=17;fontStyle=1;strokeWidth=2;spacingTop=0;points=[];" parent="NjAqU9Y5rHBkyYTPuW-a-1" vertex="1">
+          <mxGeometry x="417" y="30" width="100" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="NjAqU9Y5rHBkyYTPuW-a-4" value="SER&#xa;(BERT)" style="shape=step;perimeter=stepPerimeter;strokeColor=#D6B656;fontFamily=Helvetica;fontSize=14;fontColor=#D6B656;fillColor=#fff2cc;fixedSize=1;size=17;fontStyle=1;strokeWidth=2;spacingTop=0;points=[];" parent="NjAqU9Y5rHBkyYTPuW-a-1" vertex="1">
+          <mxGeometry x="507" y="30" width="100" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="NjAqU9Y5rHBkyYTPuW-a-5" value="Embedding" style="shape=step;perimeter=stepPerimeter;strokeColor=#B85450;fontFamily=Helvetica;fontSize=14;fontColor=#B85450;fillColor=#f8cecc;fixedSize=1;size=17;fontStyle=1;strokeWidth=2;spacingTop=0;points=[];" parent="NjAqU9Y5rHBkyYTPuW-a-1" vertex="1">
+          <mxGeometry x="597" y="30" width="136" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="bHArMrMlONKAML6liJyr-2" value="Combine &#xa;Feature&#xa; Modalities" style="shape=step;perimeter=stepPerimeter;strokeColor=#6C8EBF;fontFamily=Helvetica;fontSize=14;fontColor=#6C8EBF;fillColor=#dae8fc;fixedSize=1;size=17;fontStyle=1;strokeWidth=2;spacingTop=0;points=[];" vertex="1" parent="NjAqU9Y5rHBkyYTPuW-a-1">
+          <mxGeometry x="723" y="30" width="137" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="bHArMrMlONKAML6liJyr-4" value="Stable &#xa;Diffusion" style="shape=step;perimeter=stepPerimeter;strokeColor=#82B366;fontFamily=Helvetica;fontSize=14;fontColor=#82B366;fillColor=#d5e8d4;fixedSize=1;size=17;fontStyle=1;strokeWidth=2;spacingTop=0;points=[];" vertex="1" parent="NjAqU9Y5rHBkyYTPuW-a-1">
+          <mxGeometry x="850" y="30" width="120" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="bHArMrMlONKAML6liJyr-7" value="Return image &#xa;capturing&#xa;emotional state" style="shape=step;perimeter=stepPerimeter;strokeColor=#D6B656;fontFamily=Helvetica;fontSize=14;fontColor=#D6B656;fillColor=#fff2cc;fixedSize=1;size=17;fontStyle=1;strokeWidth=2;spacingTop=0;points=[];" vertex="1" parent="NjAqU9Y5rHBkyYTPuW-a-1">
+          <mxGeometry x="960" y="30" width="183" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="bHArMrMlONKAML6liJyr-11" value="Phone background refreshes&#xa;to reflect the perceived mood" style="shape=step;perimeter=stepPerimeter;strokeColor=#9673a6;fontFamily=Helvetica;fontSize=14;fillColor=#e1d5e7;fixedSize=1;size=17;fontStyle=1;strokeWidth=2;spacingTop=0;points=[];fontColor=#9999FF;" vertex="1" parent="NjAqU9Y5rHBkyYTPuW-a-1">
+          <mxGeometry x="1133" y="30" width="241" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="bHArMrMlONKAML6liJyr-1" value="Waveform&#xa;Analysis" style="shape=step;perimeter=stepPerimeter;strokeColor=#82B366;fontFamily=Helvetica;fontSize=14;fontColor=#82B366;fillColor=#d5e8d4;fixedSize=1;size=17;fontStyle=1;strokeWidth=2;spacingTop=0;points=[];" vertex="1" parent="1">
+          <mxGeometry x="660" y="206" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bHArMrMlONKAML6liJyr-3" value="Insert to &#xa;vector DB" style="shape=step;perimeter=stepPerimeter;strokeColor=#6C8EBF;fontFamily=Helvetica;fontSize=14;fontColor=#6C8EBF;fillColor=#dae8fc;fixedSize=1;size=17;fontStyle=1;strokeWidth=2;spacingTop=0;points=[];" vertex="1" parent="1">
+          <mxGeometry x="965" y="77" width="137" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="bHArMrMlONKAML6liJyr-5" value="GPT" style="shape=step;perimeter=stepPerimeter;strokeColor=#82B366;fontFamily=Helvetica;fontSize=14;fontColor=#82B366;fillColor=#d5e8d4;fixedSize=1;size=17;fontStyle=1;strokeWidth=2;spacingTop=0;points=[];" vertex="1" parent="1">
+          <mxGeometry x="1093" y="206" width="120" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="bHArMrMlONKAML6liJyr-6" value="MuseNet/&#xa;Jukedeck/&#xa;MusicLM" style="shape=step;perimeter=stepPerimeter;strokeColor=#82B366;fontFamily=Helvetica;fontSize=14;fontColor=#82B366;fillColor=#d5e8d4;fixedSize=1;size=17;fontStyle=1;strokeWidth=2;spacingTop=0;points=[];" vertex="1" parent="1">
+          <mxGeometry x="1093" y="271" width="121" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="bHArMrMlONKAML6liJyr-8" value="Return summary &#xa;or detailed explana-&#xa;tion of emotional state" style="shape=step;perimeter=stepPerimeter;strokeColor=#D6B656;fontFamily=Helvetica;fontSize=14;fontColor=#D6B656;fillColor=#fff2cc;fixedSize=1;size=17;fontStyle=1;strokeWidth=2;spacingTop=0;points=[];" vertex="1" parent="1">
+          <mxGeometry x="1201" y="206" width="187" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="bHArMrMlONKAML6liJyr-9" value="Return song &#xa;capturing&#xa;emotional state" style="shape=step;perimeter=stepPerimeter;strokeColor=#D6B656;fontFamily=Helvetica;fontSize=14;fontColor=#D6B656;fillColor=#fff2cc;fixedSize=1;size=17;fontStyle=1;strokeWidth=2;spacingTop=0;points=[];" vertex="1" parent="1">
+          <mxGeometry x="1201" y="271" width="187" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="bHArMrMlONKAML6liJyr-10" value="Listen to live-updating &#xa;soundtrack which mirrors &#xa;your environment" style="shape=step;perimeter=stepPerimeter;strokeColor=#9673a6;fontFamily=Helvetica;fontSize=14;fillColor=#e1d5e7;fixedSize=1;size=17;fontStyle=1;strokeWidth=2;spacingTop=0;points=[];fontColor=#9999FF;" vertex="1" parent="1">
+          <mxGeometry x="1376" y="271" width="244" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="bHArMrMlONKAML6liJyr-23" value="In-ear or on-screen text&#xa;translations and summaries" style="shape=step;perimeter=stepPerimeter;strokeColor=#9673a6;fontFamily=Helvetica;fontSize=14;fillColor=#e1d5e7;fixedSize=1;size=17;fontStyle=1;strokeWidth=2;spacingTop=0;points=[];fontColor=#9999FF;" vertex="1" parent="1">
+          <mxGeometry x="1376" y="206" width="244" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="bHArMrMlONKAML6liJyr-27" value="Insert to&#xa;vector DB" style="shape=step;perimeter=stepPerimeter;strokeColor=#B85450;fontFamily=Helvetica;fontSize=14;fontColor=#B85450;fillColor=#f8cecc;fixedSize=1;size=17;fontStyle=1;strokeWidth=2;spacingTop=0;points=[];" vertex="1" parent="1">
+          <mxGeometry x="839" y="77" width="136" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="bHArMrMlONKAML6liJyr-28" value="SER&#xa;(wav2vec2)" style="shape=step;perimeter=stepPerimeter;strokeColor=#D6B656;fontFamily=Helvetica;fontSize=14;fontColor=#D6B656;fillColor=#fff2cc;fixedSize=1;size=17;fontStyle=1;strokeWidth=2;spacingTop=0;points=[];" vertex="1" parent="1">
+          <mxGeometry x="749" y="206" width="100" height="59" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
