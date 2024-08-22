@@ -24,7 +24,7 @@ If you let Voxemo passively listen or track your location (understandable if you
 Voxemo is all about speed. Hot, nasty, bad-ass speed.
 - Eleanor Roosevelt, maybe
 
-![Architectural Diagram](./architecture.jpg)
+![Architectural Diagram](./architecture.png)
 
 
 Audio is collected by a Nextjs web client to Node API server, and streamed through a feature extraction pipeline chained together by Kafka, and ultimately those features are stored in a vector database such as Pinecone.Accompanying metadata in ClickHouse.
