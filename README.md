@@ -7,6 +7,7 @@
 
 Voxemo aims to be an emotional translator for the social-cognitive or simpaired, or anyone seeking new forms of expression.
 
+![Conceptual Diagram](./concept.png)
 
 Voxemo will listen to any speaker and describe their emotional state in any spoken language, or through other forms of generative ai such as visual or musical art. UML could theoretically also be leveraged to create diagrams, flowcharts, and graphs to explain something.
 

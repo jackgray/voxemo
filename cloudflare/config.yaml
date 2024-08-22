@@ -1,0 +1,9 @@
+tunnel: d3f9e2e4-aad4-4820-b2c6-4ec061bb7392
+credentials-file: /etc/cloudflared/d3f9e2e4-aad4-4820-b2c6-4ec061bb7392.json
+
+ingress:
+  - hostname: vapetaper.jackgray.nyc
+    service: http://192.168.8.246:3007
+  - hostname: vtserver.jackgray.nyc
+    service: http://192.168.8.246:3002
+  - service: http_status:404
