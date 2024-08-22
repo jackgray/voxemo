@@ -24,6 +24,9 @@ If you let Voxemo passively listen or track your location (understandable if you
 Voxemo is all about speed. Hot, nasty, bad-ass speed.
 - Eleanor Roosevelt, maybe
 
+![Architectural Diagram](./architecture.jpg)
+
+
 Audio is collected by a Nextjs web client to Node API server, and streamed through a feature extraction pipeline chained together by Kafka, and ultimately those features are stored in a vector database such as Pinecone.Accompanying metadata in ClickHouse.
 
 The key to high transmission rates is appropriately chunking the audio so that processing can begin soon after the user starts speaking, and allocating a high replica count so that ideally each word the user speaks goes to a different node in a round robin fashion so that there is never a processing queue greater than 1. 
