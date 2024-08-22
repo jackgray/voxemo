@@ -4,23 +4,23 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="9S8Kf50l2ie6K4rebAup-129" value="Voxemo Application" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;fillColor=#D5CADE;gradientColor=#5B585E;strokeColor=#666666;gradientDirection=north;" vertex="1" parent="1">
+        <mxCell id="9S8Kf50l2ie6K4rebAup-129" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Voxemo Application&lt;/font&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;fillColor=#D5CADE;gradientColor=#5B585E;strokeColor=#666666;gradientDirection=north;" vertex="1" parent="1">
           <mxGeometry x="110" y="197.4" width="450" height="432.6" as="geometry" />
         </mxCell>
-        <mxCell id="9S8Kf50l2ie6K4rebAup-118" value="Acoustic Feature Extraction&lt;div&gt;Consumer/Producer&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;fillColor=#D5CADE;gradientColor=#5B585E;strokeColor=#666666;gradientDirection=north;" vertex="1" parent="1">
+        <mxCell id="9S8Kf50l2ie6K4rebAup-118" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Acoustic Feature Extraction&lt;/font&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Consumer/Producer&lt;/font&gt;&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;fillColor=#D5CADE;gradientColor=#5B585E;strokeColor=#666666;gradientDirection=north;" vertex="1" parent="1">
           <mxGeometry x="1920" y="524" width="510" height="285" as="geometry" />
         </mxCell>
-        <mxCell id="9S8Kf50l2ie6K4rebAup-104" value="ffmpeg Consumer/Producer" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;fillColor=#D5CADE;gradientColor=#5B585E;strokeColor=#666666;gradientDirection=north;" vertex="1" parent="1">
+        <mxCell id="9S8Kf50l2ie6K4rebAup-104" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;ffmpeg Consumer/Producer&lt;/font&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;fillColor=#D5CADE;gradientColor=#5B585E;strokeColor=#666666;gradientDirection=north;" vertex="1" parent="1">
           <mxGeometry x="730" y="290" width="160" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="9S8Kf50l2ie6K4rebAup-95" value="Acoustic Feature Extraction&lt;div&gt;Consumer/Producer&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;fillColor=#D5CADE;gradientColor=#5B585E;strokeColor=#666666;gradientDirection=north;" vertex="1" parent="1">
+        <mxCell id="9S8Kf50l2ie6K4rebAup-95" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Acoustic Feature Extraction&lt;/font&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Consumer/Producer&lt;/font&gt;&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;fillColor=#D5CADE;gradientColor=#5B585E;strokeColor=#666666;gradientDirection=north;" vertex="1" parent="1">
           <mxGeometry x="1110" y="620" width="410" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="9S8Kf50l2ie6K4rebAup-92" value="WhisperAI Consumer/Producer" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;fillColor=#D5CADE;gradientColor=#5B585E;strokeColor=#666666;gradientDirection=north;" vertex="1" parent="1">
+        <mxCell id="9S8Kf50l2ie6K4rebAup-92" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;WhisperAI Consumer/Producer&lt;/font&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;fillColor=#D5CADE;gradientColor=#5B585E;strokeColor=#666666;gradientDirection=north;" vertex="1" parent="1">
           <mxGeometry x="1050" y="240" width="170" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="9S8Kf50l2ie6K4rebAup-90" value="Kafka Topics" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;fillColor=#D5CADE;gradientColor=#5B585E;strokeColor=#666666;gradientDirection=north;" vertex="1" parent="1">
-          <mxGeometry x="560" y="40" width="1910" height="140" as="geometry" />
+        <mxCell id="9S8Kf50l2ie6K4rebAup-90" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;fillColor=#D5CADE;gradientColor=#5B585E;strokeColor=#666666;gradientDirection=north;" vertex="1" parent="1">
+          <mxGeometry x="560" y="40" width="2390" height="140" as="geometry" />
         </mxCell>
         <mxCell id="9S8Kf50l2ie6K4rebAup-51" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=hor;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;fillColor=#808080;" vertex="1" parent="1">
           <mxGeometry x="-210" y="-2420" width="2140" height="1430" as="geometry" />
@@ -168,8 +168,8 @@
         <mxCell id="9S8Kf50l2ie6K4rebAup-88" value="Time-locked&amp;nbsp;&lt;div&gt;Acoustic Features&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;fillColor=#e51400;strokeColor=#000000;fontColor=#ffffff;strokeWidth=4;" vertex="1" parent="1">
           <mxGeometry x="1530" y="69.99999999999999" width="185" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9S8Kf50l2ie6K4rebAup-91" value="Kafka Topics" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="10" width="90" height="30" as="geometry" />
+        <mxCell id="9S8Kf50l2ie6K4rebAup-91" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Kafka Topics&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1430" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9S8Kf50l2ie6K4rebAup-100" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;WAV conversion&lt;/div&gt;ffmpeg&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(Byte chunk n-0.2--n+1)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=4;fillColor=#647687;strokeColor=#000000;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="750" y="460" width="120" height="100" as="geometry" />
@@ -213,8 +213,11 @@
         <mxCell id="9S8Kf50l2ie6K4rebAup-126" value="Acoustic Feature Embeddings" style="whiteSpace=wrap;html=1;align=center;fillColor=#e51400;strokeColor=#000000;fontColor=#ffffff;strokeWidth=4;" vertex="1" parent="1">
           <mxGeometry x="2260" y="1120" width="185" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9S8Kf50l2ie6K4rebAup-131" value="Combined Embeddings" style="strokeWidth=5;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;fillColor=#d80073;fontColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="2710" y="590" width="230" height="180" as="geometry" />
+        <mxCell id="9S8Kf50l2ie6K4rebAup-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9S8Kf50l2ie6K4rebAup-131" target="9S8Kf50l2ie6K4rebAup-135">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9S8Kf50l2ie6K4rebAup-131" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Combined&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Embeddings&lt;/font&gt;&lt;/div&gt;" style="strokeWidth=5;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;fillColor=#d80073;fontColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2580" y="590" width="230" height="180" as="geometry" />
         </mxCell>
         <mxCell id="9S8Kf50l2ie6K4rebAup-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.217;entryY=0.989;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9S8Kf50l2ie6K4rebAup-126" target="9S8Kf50l2ie6K4rebAup-131">
           <mxGeometry relative="1" as="geometry" />
@@ -223,9 +226,19 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2146" y="1270" />
-              <mxPoint x="2914" y="1270" />
+              <mxPoint x="2780" y="1270" />
+              <mxPoint x="2780" y="754" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="9S8Kf50l2ie6K4rebAup-138" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9S8Kf50l2ie6K4rebAup-135" target="9S8Kf50l2ie6K4rebAup-137">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9S8Kf50l2ie6K4rebAup-135" value="Full Sentence&lt;div&gt;Combined embeddings&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;fillColor=#e51400;strokeColor=#000000;fontColor=#ffffff;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="2650" y="70" width="185" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9S8Kf50l2ie6K4rebAup-137" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;Vector Database&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=4;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2900" y="300" width="170" height="167.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
