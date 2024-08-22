@@ -1,5 +1,43 @@
 # Voxemo
 
-##### Translate your voice to emotion embeddings that can be used to quickly generate visual and 
-musical 
-art
+##### Extract emotional sentiment from voice input in real time
+
+##### Generate responses through visual or musical art generation or TTS
+
+
+Voxemo aims to be an emotional translator for the social-cognitive or simpaired, or anyone seeking new forms of expression.
+
+
+Voxemo will listen to any speaker and describe their emotional state in any spoken language, or through other forms of generative ai such as visual or musical art. UML could theoretically also be leveraged to create diagrams, flowcharts, and graphs to explain something.
+
+Physiologic recording, facial recognition, body language, or even incoherent audio signal could also be used for emotional sensing, and Voxemo can learn from its users by asking for feedback from of how accurate its interpretation is.
+
+This could be helpful for stroke patients who have difficulty coming up with the words to express how they feel, and also those on the spectrum or other socio-cog disorders like ADHD and schizophroenia who have difficulty understanding others. 
+
+Additionally, anyone can use this app to streamline summaries of notes and get help rephrasing sentences into clearer more effective terms in real time.
+
+If you let Voxemo passively listen or track your location (understandable if you don't), it will provide summaries of different parts of your day with a view to overlay key points on a map of where you were, including other metadata about the context. It could even send you alerts to catch you from entering negative brain states based on learned precipitating queues. 
+
+
+## Design Approach
+
+Voxemo is all about speed. Hot, nasty, bad-ass speed.
+- Eleanor Roosevelt, maybe
+
+Audio is collected by a Nextjs web client to Node API server, and streamed through a feature extraction pipeline chained together by Kafka, and ultimately those features are stored in a vector database such as Pinecone.Accompanying metadata in ClickHouse.
+
+The key to high transmission rates is appropriately chunking the audio so that processing can begin soon after the user starts speaking. 
+
+
+### Client Application using web recorder api
+The client application, built on Next.js/React streans the raw byte input to the API server
+
+### API / Node Server (raw_bytestream)
+Before the speaker is done recording, the server is already recieving the audio bytestream from the client in real time, and immediately passes that up to a Kakfa topic called bytestream
+
+### Kafka byestream ffmpeg consumer (chunks_2wav)
+A fleet of consumers listening on the bytestream topic proccesses WAV files in chunks to be passed on to transcription. It sends a series of small WAV files containing sentence fragments to another Kafka topic called wav_2whisper where a Whisper ASR service will pick them up
+
+### Kafka Whisper consumer (wav_2whisper)
+T
+
