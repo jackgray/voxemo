@@ -1,9 +1,17 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" version="24.7.7">
   <diagram name="Page-1" id="7Tb53v2nf2DUyBZa-c6o">
-    <mxGraphModel dx="2902" dy="4682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3130" dy="4836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="9S8Kf50l2ie6K4rebAup-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="9S8Kf50l2ie6K4rebAup-108" target="9S8Kf50l2ie6K4rebAup-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9S8Kf50l2ie6K4rebAup-150" value="Complete WAV Analyzed" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9S8Kf50l2ie6K4rebAup-149">
+          <mxGeometry x="0.7468" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="9S8Kf50l2ie6K4rebAup-129" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Voxemo Application&lt;/font&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;fillColor=#D5CADE;gradientColor=#5B585E;strokeColor=#666666;gradientDirection=north;" vertex="1" parent="1">
           <mxGeometry x="110" y="197.4" width="450" height="432.6" as="geometry" />
         </mxCell>
@@ -135,6 +143,14 @@
             <mxPoint x="2" y="-25" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="9S8Kf50l2ie6K4rebAup-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9S8Kf50l2ie6K4rebAup-67" target="9S8Kf50l2ie6K4rebAup-105">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="953" y="1060" />
+              <mxPoint x="1773" y="1060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="9S8Kf50l2ie6K4rebAup-67" value="WAV chunks" style="whiteSpace=wrap;html=1;align=center;fillColor=#e51400;strokeColor=#000000;fontColor=#ffffff;strokeWidth=4;" vertex="1" parent="1">
           <mxGeometry x="860" y="69.99999999999999" width="185" height="80" as="geometry" />
         </mxCell>
@@ -180,8 +196,11 @@
         <mxCell id="9S8Kf50l2ie6K4rebAup-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9S8Kf50l2ie6K4rebAup-105" target="9S8Kf50l2ie6K4rebAup-110">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="9S8Kf50l2ie6K4rebAup-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9S8Kf50l2ie6K4rebAup-105" target="9S8Kf50l2ie6K4rebAup-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="9S8Kf50l2ie6K4rebAup-105" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Stitch&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Sliding window&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=4;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1740" y="330" width="130" height="130" as="geometry" />
+          <mxGeometry x="1740" y="230" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="9S8Kf50l2ie6K4rebAup-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9S8Kf50l2ie6K4rebAup-108" target="9S8Kf50l2ie6K4rebAup-112">
           <mxGeometry relative="1" as="geometry" />
@@ -204,7 +223,7 @@
         <mxCell id="9S8Kf50l2ie6K4rebAup-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9S8Kf50l2ie6K4rebAup-114" target="9S8Kf50l2ie6K4rebAup-126">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9S8Kf50l2ie6K4rebAup-114" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Acoustic SER&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;SpeechBrain wav2vec2-IEMOCAP&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=4;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
+        <mxCell id="9S8Kf50l2ie6K4rebAup-114" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Acoustic SER&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;Takes&lt;font size=&quot;1&quot;&gt;&amp;nbsp;acoustic features and extracts emotional sentiment&lt;/font&gt;&lt;/div&gt;&lt;div&gt;SpeechBrain wav2vec2-IEMOCAP&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=4;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="2220" y="587.75" width="170" height="167.5" as="geometry" />
         </mxCell>
         <mxCell id="9S8Kf50l2ie6K4rebAup-125" value="Transcript Embeddings" style="whiteSpace=wrap;html=1;align=center;fillColor=#e51400;strokeColor=#000000;fontColor=#ffffff;strokeWidth=4;" vertex="1" parent="1">
@@ -239,6 +258,43 @@
         </mxCell>
         <mxCell id="9S8Kf50l2ie6K4rebAup-137" value="&lt;div style=&quot;font-size: 15px;&quot;&gt;Vector Database&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=4;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="2900" y="300" width="170" height="167.5" as="geometry" />
+        </mxCell>
+        <mxCell id="9S8Kf50l2ie6K4rebAup-140" value="Complete WAV file" style="whiteSpace=wrap;html=1;align=center;fillColor=#e51400;strokeColor=#000000;fontColor=#ffffff;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="1120" width="195" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9S8Kf50l2ie6K4rebAup-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.438;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9S8Kf50l2ie6K4rebAup-140" target="9S8Kf50l2ie6K4rebAup-92">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="1180" />
+              <mxPoint x="950" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9S8Kf50l2ie6K4rebAup-145" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9S8Kf50l2ie6K4rebAup-144">
+          <mxGeometry x="-0.7253" y="-1" relative="1" as="geometry">
+            <mxPoint x="-112" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9S8Kf50l2ie6K4rebAup-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9S8Kf50l2ie6K4rebAup-140" target="9S8Kf50l2ie6K4rebAup-95">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="1160" />
+              <mxPoint x="950" y="785" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9S8Kf50l2ie6K4rebAup-143" value="3 types of streams:&amp;nbsp;&lt;div&gt;1. Chunk-wise: small chunks processed to prioritize speed&lt;/div&gt;&lt;div&gt;2. Updated partial: Combined chunks up to latest chunk to update robust analysis&amp;nbsp;&lt;/div&gt;&lt;div&gt;3. Complete: &amp;nbsp;the full entry is analyzed for full context&amp;nbsp;&lt;/div&gt;" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9S8Kf50l2ie6K4rebAup-142">
+          <mxGeometry x="-0.4249" y="4" relative="1" as="geometry">
+            <mxPoint x="-154" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9S8Kf50l2ie6K4rebAup-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="9S8Kf50l2ie6K4rebAup-108" target="9S8Kf50l2ie6K4rebAup-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9S8Kf50l2ie6K4rebAup-148" value="Complete WAV Transcribed as full sentence" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9S8Kf50l2ie6K4rebAup-147">
+          <mxGeometry x="0.5502" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
