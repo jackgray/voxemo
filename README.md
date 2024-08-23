@@ -16,7 +16,7 @@ It functions as a two-way emotional translator and expressive instrument, conver
 
 Voxemo prioritizes speed and efficiency in processing emotional data, with a robust architecture designed for real-time responsiveness.
 
-![Overview]('./docs/diagrams/concept.png)
+![Overview](./docs/diagrams/concept.png)
 
 ### System Architecture
 
@@ -39,7 +39,7 @@ Voxemo prioritizes speed and efficiency in processing emotional data, with a rob
 - **Paralinguistic/Acoustic Feature Extraction**:
   - Utilizes advanced techniques to analyze emotional content from audio inputs.
 
-![Architecture]('./docs/diagrams/architecture.png')
+![Architecture](./docs/diagrams/architecture.png)
 
 ### Additional Technologies
 
