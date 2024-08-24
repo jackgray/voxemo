@@ -2,19 +2,16 @@
 
 import { FC, useState, useEffect } from 'react';
 import { title, subtitle } from "@/components/primitives";
-import Vapes from '@/components/vapes';
-import { Vape } from '@/types';
-import seedData from '@/config/seed_data.json';
-import UserSparkLineChart from '@/components/sparkline';
+import { Record } from "@/components/record"
 
 const DashboardPage: FC = () => {
-  const vapes: Vape[] = seedData.vapes;
 
   return (
     <div>
       <div>
         Dashboard
       </div>
+      <Record />
     </div>
   );
 };
