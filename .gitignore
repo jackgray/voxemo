@@ -1,0 +1,5 @@
+**.pem
+**/.env
+
+**/cloudflare/*.json
+**/cloudflare/config.yaml

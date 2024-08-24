@@ -25,8 +25,7 @@ app.get('/api/devices', async (req, res) => {
   }
 });
 
-// Endpoint to add a purchase record
-app.post('/api/purchase', async (req, res) => {
+app.post('/api/record', async (req, res) => {
   const { userId, deviceId, purchaseDate } = req.body;
   try {
     const result = await pool.query(
