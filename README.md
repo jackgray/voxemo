@@ -19,6 +19,8 @@ Voxemo prioritizes speed and efficiency in processing emotional data, with a rob
 ![Overview](./docs/diagrams/concept.png)
 
 ### System Architecture
+![Architecture](./docs/diagrams/architecture_simplified.png)
+
 
 - **Client Application (Next.js/React)**: 
   - Captures audio input using the Web Recorder API.
@@ -38,8 +40,7 @@ Voxemo prioritizes speed and efficiency in processing emotional data, with a rob
 
 - **Paralinguistic/Acoustic Feature Extraction**:
   - Utilizes advanced techniques to analyze emotional content from audio inputs.
-  
-![Architecture](./docs/diagrams/architecture_simplified.png)
+
 <!-- ![Architecture](./docs/diagrams/architecture.png) -->
 
 ### Additional Technologies
