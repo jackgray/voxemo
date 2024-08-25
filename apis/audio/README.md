@@ -4,5 +4,6 @@ Specifically handles retrieving audio data from the client and converting it int
 
 Goals:
 
-Simultaneously pass off chunks piecewise and uptodate concatenation of all chunks
+Send off 30s chunks round robin to different Whisper replicas to transcribe in parallel then stitch together the full request
+
 
