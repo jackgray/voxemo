@@ -303,9 +303,6 @@
         <mxCell id="qtRhv1g1hhuLfqnJ4PMB-60" value="Librosa DLQ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1293" y="206" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="8UidpD8ADYZxRoYTQ9N2-170" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="qtRhv1g1hhuLfqnJ4PMB-65" target="8UidpD8ADYZxRoYTQ9N2-155">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="qtRhv1g1hhuLfqnJ4PMB-65" value="LLM Embeddings" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2669" y="378" width="150" height="20" as="geometry" />
         </mxCell>
