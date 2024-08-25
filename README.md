@@ -38,7 +38,7 @@ Voxemo prioritizes speed and efficiency in processing emotional data, with a rob
 
 - **Paralinguistic/Acoustic Feature Extraction**:
   - Utilizes advanced techniques to analyze emotional content from audio inputs.
-
+![Architecture (Alternate)](./docs/diagrams/architecture-simplified.png)
 ![Architecture](./docs/diagrams/architecture.png)
 
 ### Additional Technologies
